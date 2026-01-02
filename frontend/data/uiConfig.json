@@ -1,0 +1,102 @@
+{
+  "characterTabs": [
+    { "id": "track", "icon": "📍", "label": "实时追踪" },
+    { "id": "mind", "icon": "💭", "label": "心像潜入" },
+    { "id": "body", "icon": "🩺", "label": "生殖透视" },
+    { "id": "dev", "icon": "🧠", "label": "敏感开发" },
+    { "id": "logs", "icon": "🗂️", "label": "档案统计" },
+    { "id": "outfit", "icon": "👗", "label": "穿搭监控" }
+  ],
+  "userTabs": [
+    { "id": "user-status", "icon": "❤️", "label": "状态总览" },
+    { "id": "user-body", "icon": "💪", "label": "身体素质" },
+    { "id": "user-inventory", "icon": "🎒", "label": "仓库" },
+    { "id": "user-shop", "icon": "🛒", "label": "网购" },
+    { "id": "tasks", "icon": "📋", "label": "任务系统" }
+  ],
+  "locks": {
+    "metrics": { "price": 400, "icon": "📊", "title": "高级生物体征 (状态值)", "btnText": "扫描" },
+    "gps": { "price": 6000, "icon": "🛰️", "title": "精准室内定位", "btnText": "定位" },
+    "audio": { "price": 1500, "icon": "🎤", "title": "环境音实时窃听", "btnText": "开启" },
+    "surface": { "price": 2000, "icon": "🗣️", "title": "表层思考 (Surface)", "btnText": "读取" },
+    "deep": { "price": 2400, "icon": "🧠", "title": "深层潜意识 (Subconscious)", "btnText": "深度潜入" },
+    "wet": { "price": 4000, "icon": "💧", "title": "湿润度详情", "btnText": "解锁" },
+    "semen": { "price": 3600, "icon": "🧬", "title": "体内精液 / DNA 检测", "btnText": "分析" },
+    "upper": { "price": 2100, "icon": "👄", "title": "上半身敏感度数据", "btnText": "解锁" },
+    "lower": { "price": 4200, "icon": "🍑", "title": "下半身 / 后庭开发度", "btnText": "解锁" },
+    "count": { "price": 2800, "icon": "🔢", "title": "性行为计数器", "btnText": "查看" },
+    "first": { "price": 4500, "icon": "🏆", "title": "关键\"第一次\"归属记录", "btnText": "查阅档案" },
+    "partners": { "price": 3000, "icon": "🕵️", "title": "接触者名单列表", "btnText": "追踪" },
+    "outfit": { "price": 800, "icon": "👁️", "title": "当前穿着扫描", "btnText": "扫描" },
+    "underwear": { "price": 1200, "icon": "👙", "title": "内衣详细状态", "btnText": "解锁" },
+    "daily": { "price": 500, "icon": "📅", "title": "每日任务列表", "btnText": "解锁" },
+    "hidden": { "price": 3500, "icon": "🔮", "title": "隐藏任务情报", "btnText": "解锁" },
+    "corruption": { "price": 5000, "icon": "🖤", "title": "堕落度 (Corruption)", "btnText": "解锁" }
+  },
+  "visualFeed": {
+    "icon": "🚫",
+    "title": "OPTICAL CAM BLOCKED",
+    "reason": "Reason: Low Light / Obstruction"
+  },
+  "labels": {
+    "telemetry": "REAL-TIME TELEMETRY",
+    "bpm": "BPM (心率)",
+    "temp": "TEMP (体温)",
+    "state": "STATE (状态)",
+    "libido": "LIBIDO (性欲值)",
+    "stress": "STRESS (压力值)",
+    "fatigue": "FATIGUE (疲劳度)",
+    "zone": "当前区域 (Zone)",
+    "building": "建筑名称",
+    "room": "楼层/房间",
+    "audioWaveform": "AUDIO WAVEFORM:",
+    "thoughtStream": "CURRENT THOUGHT STREAM:",
+    "primalDesires": "PRIMAL DESIRES:",
+    "shame": "羞耻感 (Shame)",
+    "pleasure": "快感 (Pleasure)",
+    "lubrication": "前庭腺分泌 (Lubrication)",
+    "semenVol": "阴道内精液量 (Semen Vol)",
+    "semenSrc": "精液来源 (Source ID)",
+    "analVol": "直肠内精液量 (Anal Vol)",
+    "lastEjacTime": "最近射精时间 (Time)",
+    "deepThroat": "深喉适应性 (Deep Throat)",
+    "nippleSensitivity": "乳头敏感度 (Sensitivity)",
+    "lactationRisk": "泌乳风险 (Lactation Risk)",
+    "vaginalCapacity": "容纳度/松弛度 (Capacity)",
+    "analAdaptation": "异物适应性 (Adaptation)",
+    "sphincterState": "括约肌状态 (Sphincter)"
+  },
+  "statsLabels": {
+    "kiss": "接吻次数",
+    "paizuri": "乳交次数",
+    "anal": "肛交次数",
+    "sex": "插入次数",
+    "cheat": "出轨次数",
+    "touch": "抚摸次数",
+    "oral": "口交次数",
+    "orgasm": "高潮次数"
+  },
+  "firstsLabels": {
+    "kiss": "初吻 (First Kiss)",
+    "virginity": "初夜 (Virginity)",
+    "analVirginity": "初次后庭 (Anal V.)",
+    "firstOrgasm": "初次高潮 (First Orgasm)"
+  },
+  "moduleTitles": {
+    "track": "📍 位置与环境监测",
+    "mind": "💭 神经漫游 (Mind Hack)",
+    "body": "🩺 生殖系统与体液",
+    "dev": "🧠 敏感带开发图谱 (Erogenous Zones)",
+    "logs": "🗂️ 行为统计与历史",
+    "outfit": "👗 穿搭监控 (Outfit Scanner)",
+    "tasks": "📋 任务系统 (Mission Control)"
+  },
+  "blockTitles": {
+    "internalResidue": "🧪 内部残留物分析 (Internal Residue)",
+    "zoneA": "ZONE A: 口腔与颈部",
+    "zoneB": "ZONE B: 乳房 (Breasts)",
+    "zoneC": "ZONE C: 阴道 (Vagina)",
+    "zoneD": "ZONE D: 后庭 (Anal)",
+    "recentContacts": "👥 最近亲密接触对象 (Last 7 Days)"
+  }
+}

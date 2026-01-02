@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "wallet": 2500,
+    "debt": 300000,
+    "days": 30,
+    "debtRate": "15%/日",
+    "version": "v5.4",
+    "currentDate": "204X/04/01",
+    "deadlineDate": "204X/05/01"
+  },
+  "characters": [
+    {
+      "id": "MIYUKI_01",
+      "name": "Miyuki",
+      "avatar": "💗",
+      "basic": {
+        "bpm": 72,
+        "temp": "36.6°C",
+        "state": "CALM (Focusing)"
+      },
+      "track": {
+        "zone": "Z05 天守阁行政区 (Central)",
+        "warn": "Safety Level: High (School Zone)",
+        "building": "圣海伦娜学院 - 艺术楼",
+        "room": "3F / 第四画室 (A53班)",
+        "audioText": "[Pencil Sketching]... [Soft Humming]...",
+        "audioVoice": "Miyuki: 'The light is good today...'"
+      },
+      "metrics": {
+        "libido": 15,
+        "stress": 25,
+        "fatigue": 10,
+        "corruption": 5
+      },
+      "mind": {
+        "surface": ["今天的天气看起来不错……", "昨晚吃的甜品味道很棒呢。", "唔……"],
+        "deep": ["期待上学的日子呢……", "学长似乎是个很好的人。", "唔，{{user}}还没到么？"],
+        "shame": 5,
+        "pleasure": 0
+      },
+      "body": {
+        "wetLevel": "Level 0 (Drenched)",
+        "wetPercent": 10,
+        "wetNote": "正常的湿润程度，因略微期待而些许增加分泌量。",
+        "semenVol": "0 ml (Trace)",
+        "semenSrc": "Unknown / Mixed",
+        "analVol": "0 ml (Clean)",
+        "lastEjacTime": "N/A",
+        "residueNote": "检测到微量残留可能源自公用设施或接触传递，建议进一步核查。"
+      },
+      "dev": {
+        "upper": {
+          "deepThroat": { "level": 0, "label": "Lv. 0 (Choking)" },
+          "nippleSensitivity": { "level": 0, "label": "Lv. 0 (Hyper)" },
+          "lactationRisk": "Low (5%)"
+        },
+        "lower": {
+          "vaginalCapacity": { "level": 0, "label": "Lv. 0 (Tight)" },
+          "analAdaptation": { "level": 0, "label": "Lv. 0 (Virgin)" },
+          "sphincterState": "Spasmodic (紧张闭合)"
+        }
+      },
+      "stats": {
+        "kiss": { "count": 0, "unknown": 1 },
+        "paizuri": { "count": 0, "unknown": 1 },
+        "anal": { "count": 0, "unknown": 1 },
+        "sex": { "count": 0, "unknown": 1 },
+        "cheat": { "count": 0, "unknown": 1 },
+        "touch": { "count": 0, "unknown": 1 },
+        "oral": { "count": 0, "label": "Practice" },
+        "orgasm": { "count": 0, "today": 0 }
+      },
+      "firsts": {
+        "kiss": "Unknown / Sleep State",
+        "virginity": "Intact (Active)",
+        "analVirginity": "Intact",
+        "firstOrgasm": "Self (Masturbation)"
+      },
+      "recentContacts": [
+        { "id": "Object A", "desc": "Round Hairbrush (Handle)" },
+        { "id": "Person B", "desc": "Masseur (Hand Contact)" },
+        { "id": "Person C", "desc": "Protagonist (Arm/Head)" }
+      ],
+      "outfit": {
+        "current": {
+          "top": "米白色宽松外套 (交叉绑带装饰)",
+          "inner": "白色衬衫 + 红色蝴蝶结领带",
+          "bottom": "浅米色连衣裙 (裙摆红线装饰)",
+          "bra": "粉色/白色内衣",
+          "panties": "粉色/白色内裤",
+          "socks": "白色过膝袜 (红色蝴蝶结装饰)",
+          "shoes": "休闲鞋"
+        },
+        "underwearStatus": {
+          "wetness": 15,
+          "stains": "None (Clean)",
+          "wornTime": "6h 23m"
+        },
+        "accessories": [
+          { "name": "发型", "desc": "粉渐变紫双马尾 (红色蝴蝶结发饰)" },
+          { "name": "挎包", "desc": "棕色小熊头造型斜挎包 (红色翻盖+黄色流苏)" },
+          { "name": "眼瞳", "desc": "金黄渐变粉红色 (高光明亮)" }
+        ],
+        "appearance": {
+          "hair": "亮粉色长发，发梢渐变淡紫色，双高马尾，红色蝴蝶结发饰，额前碎发",
+          "eyes": "大而明亮，金黄到粉红渐变瞳色，带高光",
+          "expression": "腼腆微笑，脸颊泛红晕",
+          "style": "甜美少女风"
+        },
+        "exposure": {
+          "rating": 20,
+          "label": "Low (保守甜美)",
+          "seduction": 40
+        }
+      }
+    }
+  ],
+  "user": {
+    "id": "USER_01",
+    "name": "玩家",
+    "status": {
+      "health": 85,
+      "stress": 30,
+      "fatigue": 20
+    },
+    "academic": {
+      "gpa": 2.3,
+      "gpaLabel": "Average (挂科边缘)",
+      "class": "C112班"
+    },
+    "body": {
+      "strength": 45,
+      "agility": 60,
+      "stamina": 55,
+      "charm": 70,
+      "intelligence": 80
+    },
+    "inventory": [
+      { "id": "item_001", "name": "隐蔽摄像头", "count": 3, "desc": "微型监控设备", "available": true },
+      { "id": "item_002", "name": "追踪器", "count": 5, "desc": "GPS定位芯片", "available": true },
+      { "id": "item_003", "name": "窃听器", "count": 2, "desc": "高灵敏度收音设备", "available": true },
+      { "id": "item_004", "name": "能量饮料", "count": 10, "desc": "恢复疲劳 +20", "available": true },
+      { "id": "item_005", "name": "镇定剂", "count": 5, "desc": "降低压力 -30", "available": true }
+    ],
+    "pendingDelivery": [],
+    "shop": [
+      { "id": "shop_001", "name": "高级摄像头", "price": 5000, "desc": "4K高清微型摄像头", "category": "监控" },
+      { "id": "shop_002", "name": "信号干扰器", "price": 8000, "desc": "屏蔽周围通讯信号", "category": "工具" },
+      { "id": "shop_003", "name": "能量饮料x5", "price": 500, "desc": "恢复疲劳 +20", "category": "消耗品" },
+      { "id": "shop_004", "name": "镇定剂x3", "price": 800, "desc": "降低压力 -30", "category": "消耗品" },
+      { "id": "shop_005", "name": "高级追踪器", "price": 12000, "desc": "超长续航GPS", "category": "监控" },
+      { "id": "shop_006", "name": "伪装套装", "price": 15000, "desc": "降低被发现概率", "category": "装备" }
+    ],
+    "sns": {
+      "contacts": [
+        {
+          "id": "sns_miyuki",
+          "name": "美雪 💗",
+          "avatar": "🌸",
+          "status": "online",
+          "lastSeen": "刚刚",
+          "messages": [
+            { "from": "miyuki", "text": "今天的课好累啊……", "time": "09:32" },
+            { "from": "user", "text": "辛苦了，放学我去接你", "time": "09:35" },
+            { "from": "miyuki", "text": "嗯！那我在校门口等你 ♪", "time": "09:36" },
+            { "from": "miyuki", "text": "对了，今天想吃草莓蛋糕……可以吗？", "time": "12:15" }
+          ]
+        },
+        {
+          "id": "sns_momoko",
+          "name": "铃木桃子",
+          "avatar": "🎮",
+          "status": "online",
+          "lastSeen": "5分钟前",
+          "messages": [
+            { "from": "momoko", "text": "嘿，有个赚钱的好机会要不要听听？", "time": "昨天" },
+            { "from": "user", "text": "什么机会？", "time": "昨天" },
+            { "from": "momoko", "text": "私下聊，这里不方便说～", "time": "昨天" },
+            { "from": "momoko", "text": "对了，你那个青梅竹马最近好像被学长盯上了哦", "time": "10:22" }
+          ]
+        },
+        {
+          "id": "sns_sato",
+          "name": "佐藤 (甜品店)",
+          "avatar": "🍰",
+          "status": "offline",
+          "lastSeen": "2小时前",
+          "messages": [
+            { "from": "sato", "text": "今天美雪同学又来店里了", "time": "昨天" },
+            { "from": "sato", "text": "她看起来心情不太好的样子……", "time": "昨天" },
+            { "from": "user", "text": "谢谢你告诉我", "time": "昨天" },
+            { "from": "sato", "text": "没事，我会照顾好她的", "time": "昨天" }
+          ]
+        },
+        {
+          "id": "sns_unknown",
+          "name": "??? (未知号码)",
+          "avatar": "❓",
+          "status": "unknown",
+          "lastSeen": "未知",
+          "messages": [
+            { "from": "unknown", "text": "P-Scope 用户您好", "time": "3天前" },
+            { "from": "unknown", "text": "您的试用期即将结束", "time": "3天前" },
+            { "from": "unknown", "text": "届时请及时续费，否则……", "time": "3天前" },
+            { "from": "unknown", "text": "您知道后果的 :)", "time": "3天前" }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "post_001",
+          "author": "雪莺 🌸",
+          "avatar": "🎨",
+          "time": "2小时前",
+          "content": "今天在公园画了一幅风景画……虽然不太满意，但是天气真的很好呢。",
+          "image": null,
+          "likes": 3,
+          "comments": [
+            { "author": "路人A", "text": "画得真好看！", "time": "1小时前" },
+            { "author": "艺术爱好者", "text": "期待看到成品～", "time": "30分钟前" }
+          ]
+        },
+        {
+          "id": "post_002",
+          "author": "桃子🎮",
+          "avatar": "🎮",
+          "time": "5小时前",
+          "content": "新出的游戏太好玩了！！有没有人一起组队啊～～",
+          "image": null,
+          "likes": 12,
+          "comments": [
+            { "author": "游戏宅", "text": "我我我！加我！", "time": "4小时前" }
+          ]
+        },
+        {
+          "id": "post_003",
+          "author": "Sweet_Wish官方",
+          "avatar": "🍰",
+          "time": "昨天",
+          "content": "【新品上市】草莓芝士蛋糕限时特惠！前10名顾客享8折优惠～欢迎光临♪",
+          "image": null,
+          "likes": 28,
+          "comments": [
+            { "author": "吃货少女", "text": "冲冲冲！", "time": "昨天" },
+            { "author": "雪莺 🌸", "text": "看起来好好吃……", "time": "昨天" }
+          ]
+        },
+        {
+          "id": "post_004",
+          "author": "学生会公告",
+          "avatar": "📢",
+          "time": "2天前",
+          "content": "圣海伦娜学院春季研学旅行报名开始！目的地：汤之乡温泉旅馆。请各位同学踊跃参加。",
+          "image": null,
+          "likes": 45,
+          "comments": [
+            { "author": "期待的学生", "text": "终于等到了！", "time": "2天前" },
+            { "author": "温泉控", "text": "温泉！温泉！", "time": "2天前" },
+            { "author": "雪莺 🌸", "text": "好期待……但是有点紧张", "time": "1天前" }
+          ]
+        },
+        {
+          "id": "post_005",
+          "author": "匿名用户",
+          "avatar": "👤",
+          "time": "3天前",
+          "content": "最近学校里好像有奇怪的传闘……大家小心点",
+          "image": null,
+          "likes": 7,
+          "comments": []
+        }
+      ],
+      "unreadCount": 3
+    },
+    "tasks": {
+      "mainQuest": {
+        "title": "接近目标",
+        "desc": "与 MIYUKI 建立初步信任关系",
+        "progress": 15,
+        "reward": "5000 CR + 好感度 +10"
+      },
+      "daily": [
+        { "name": "早安问候", "status": "completed", "reward": "200 CR" },
+        { "name": "午餐邀约", "status": "active", "reward": "500 CR" },
+        { "name": "放学同行", "status": "locked", "reward": "300 CR" },
+        { "name": "晚间通话", "status": "locked", "reward": "400 CR" }
+      ],
+      "hidden": [
+        { "name": "???", "hint": "在艺术楼发现某物", "reward": "2000 CR" },
+        { "name": "???", "hint": "触发特殊对话", "reward": "好感度 +20" }
+      ],
+      "summary": {
+        "completed": 3,
+        "earnedCR": 1500,
+        "affectionChange": "+5"
+      }
+    }
+  }
+}
